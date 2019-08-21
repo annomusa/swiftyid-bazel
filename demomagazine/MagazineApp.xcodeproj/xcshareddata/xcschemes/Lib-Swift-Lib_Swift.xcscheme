@@ -1,0 +1,86 @@
+
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForArchiving="YES" buildForProfiling="YES" buildForAnalyzing="YES">
+                <BuildableReference ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="libLib-Swift-Lib_Swift.a" BuildableIdentifier="primary" BlueprintName="Lib-Swift-Lib_Swift" BlueprintIdentifier="F9B8C5475D2C01A000000000"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="Lib-Swift-Lib_Swift" BlueprintIdentifier="F9B8C5475D2C01A000000000" BuildableIdentifier="primary" ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="libLib-Swift-Lib_Swift.a"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C5475D2C01A000000000" BuildableIdentifier="primary" BuildableName="libLib-Swift-Lib_Swift.a" BlueprintName="Lib-Swift-Lib_Swift"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+    </BuildAction>
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="__TulsiTestRunner_Debug" shouldUseLaunchSchemeArgsEnv="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
+        <Testables></Testables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="F9B8C5475D2C01A000000000" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintName="Lib-Swift-Lib_Swift" BuildableName="libLib-Swift-Lib_Swift.a"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintIdentifier="F9B8C5475D2C01A000000000" BuildableName="libLib-Swift-Lib_Swift.a" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintName="Lib-Swift-Lib_Swift" BuildableIdentifier="primary"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="libLib-Swift-Lib_Swift.a" BlueprintName="Lib-Swift-Lib_Swift" BuildableIdentifier="primary" BlueprintIdentifier="F9B8C5475D2C01A000000000"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" buildConfiguration="Debug" debugServiceExtension="internal" ignoresPersistentStateOnLaunch="NO" launchStyle="0" allowLocationSimulation="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
+        <CommandLineArguments>
+            <CommandLineArgument isEnabled="YES" argument=""></CommandLineArgument>
+        </CommandLineArguments>
+        <EnvironmentVariables></EnvironmentVariables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="Lib-Swift-Lib_Swift" ReferencedContainer="container:MagazineApp.xcodeproj" BuildableIdentifier="primary" BuildableName="libLib-Swift-Lib_Swift.a" BlueprintIdentifier="F9B8C5475D2C01A000000000"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="F9B8C5475D2C01A000000000" BuildableName="libLib-Swift-Lib_Swift.a" BlueprintName="Lib-Swift-Lib_Swift" ReferencedContainer="container:MagazineApp.xcodeproj"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <MacroExpansion>
+            <BuildableReference BuildableName="libLib-Swift-Lib_Swift.a" BuildableIdentifier="primary" BlueprintIdentifier="F9B8C5475D2C01A000000000" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintName="Lib-Swift-Lib_Swift"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" shouldUseLaunchSchemeArgsEnv="YES" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO">
+        <MacroExpansion>
+            <BuildableReference ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="libLib-Swift-Lib_Swift.a" BlueprintIdentifier="F9B8C5475D2C01A000000000" BlueprintName="Lib-Swift-Lib_Swift" BuildableIdentifier="primary"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>

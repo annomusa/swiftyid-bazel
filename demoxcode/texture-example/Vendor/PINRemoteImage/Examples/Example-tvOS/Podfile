@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'PINRemoteImage.tvOSExample' do
+  pod "PINRemoteImage/iOS", :path => "../../"
+  pod "PINRemoteImage/WebP", :path => "../../"
+end

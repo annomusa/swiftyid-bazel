@@ -1,0 +1,13 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "MagazineApp",
+    "Lib-Swift"
+  ],
+  "projectName" : "MagazineApp",
+  "workspaceRoot" : ".."
+}

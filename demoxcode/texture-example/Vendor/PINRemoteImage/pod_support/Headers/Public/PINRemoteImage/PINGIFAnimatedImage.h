@@ -1,0 +1,1 @@
+../../../../Source/Classes/AnimatedImages/PINGIFAnimatedImage.h

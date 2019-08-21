@@ -1,0 +1,96 @@
+{
+  "additionalFilePaths" : [
+    "MagazineApp/BUILD",
+    "Lib-Swift/BUILD"
+  ],
+  "buildTargets" : [
+    "//Lib-Swift:Lib_Swift",
+    "//MagazineApp:MagazineApp",
+    "//MagazineApp:Sources"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : ""
+    },
+    "BuildActionPostActionScript" : {
+      "p" : ""
+    },
+    "BuildActionPreActionScript" : {
+      "p" : ""
+    },
+    "CommandlineArguments" : {
+      "p" : ""
+    },
+    "EnvironmentVariables" : {
+      "p" : ""
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : ""
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : ""
+    },
+    "TestActionPostActionScript" : {
+      "p" : ""
+    },
+    "TestActionPreActionScript" : {
+      "p" : ""
+    }
+  },
+  "projectName" : "MagazineApp",
+  "sourceFilters" : [
+    "Lib-Swift",
+    "Lib-Swift/src",
+    "MagazineApp",
+    "MagazineApp/Resources",
+    "MagazineApp/src",
+    "MagazineApp/src/Data",
+    "MagazineApp/src/Views",
+    "external",
+    "external/Ml",
+    "external/Ml/Source",
+    "external/Rx",
+    "external/Rx/Platform",
+    "external/Rx/Platform/DataStructures",
+    "external/Rx/RxSwift",
+    "external/Rx/RxSwift/Concurrency",
+    "external/Rx/RxSwift/Disposables",
+    "external/Rx/RxSwift/Extensions",
+    "external/Rx/RxSwift/Observables",
+    "external/Rx/RxSwift/Observers",
+    "external/Rx/RxSwift/Schedulers",
+    "external/Rx/RxSwift/Schedulers/Internal",
+    "external/Rx/RxSwift/Subjects",
+    "external/Rx/RxSwift/SwiftSupport",
+    "external/Rx/RxSwift/Traits",
+    "external/bazel_skylib",
+    "external/bazel_skylib/lib",
+    "external/bazel_tools",
+    "external/bazel_tools/tools",
+    "external/bazel_tools/tools/build_defs",
+    "external/bazel_tools/tools/build_defs/cc",
+    "external/build_bazel_apple_support",
+    "external/build_bazel_apple_support/lib",
+    "external/build_bazel_rules_apple",
+    "external/build_bazel_rules_apple/apple",
+    "external/build_bazel_rules_apple/apple/internal",
+    "external/build_bazel_rules_apple/apple/internal/aspects",
+    "external/build_bazel_rules_apple/apple/internal/partials",
+    "external/build_bazel_rules_apple/apple/internal/partials/support",
+    "external/build_bazel_rules_apple/apple/internal/resource_actions",
+    "external/build_bazel_rules_apple/apple/internal/testing",
+    "external/build_bazel_rules_apple/apple/internal/utils",
+    "external/build_bazel_rules_swift",
+    "external/build_bazel_rules_swift/swift",
+    "external/build_bazel_rules_swift/swift/internal"
+  ]
+}

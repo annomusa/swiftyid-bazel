@@ -1,0 +1,86 @@
+
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForAnalyzing="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference BlueprintIdentifier="F9B8C54766F75C2800000000" BuildableName="MagazineApp.app" BuildableIdentifier="primary" BlueprintName="MagazineApp" ReferencedContainer="container:MagazineApp.xcodeproj"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableName="MagazineApp.app" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C54766F75C2800000000" BuildableIdentifier="primary" BlueprintName="MagazineApp"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C54766F75C2800000000" BlueprintName="MagazineApp" BuildableName="MagazineApp.app"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+    </BuildAction>
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
+        <Testables></Testables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableName="MagazineApp.app" BlueprintIdentifier="F9B8C54766F75C2800000000" ReferencedContainer="container:MagazineApp.xcodeproj" BuildableIdentifier="primary" BlueprintName="MagazineApp"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintIdentifier="F9B8C54766F75C2800000000" BlueprintName="MagazineApp" BuildableIdentifier="primary" ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="MagazineApp.app"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BuildableName="MagazineApp.app" BlueprintName="MagazineApp" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C54766F75C2800000000" BuildableIdentifier="primary"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction allowLocationSimulation="YES" launchStyle="0" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" buildConfiguration="Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" debugServiceExtension="internal">
+        <CommandLineArguments>
+            <CommandLineArgument argument="" isEnabled="YES"></CommandLineArgument>
+        </CommandLineArguments>
+        <EnvironmentVariables></EnvironmentVariables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="MagazineApp" BuildableIdentifier="primary" BuildableName="MagazineApp.app" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C54766F75C2800000000"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableIdentifier="primary" BuildableName="MagazineApp.app" ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintName="MagazineApp" BlueprintIdentifier="F9B8C54766F75C2800000000"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference ReferencedContainer="container:MagazineApp.xcodeproj" BlueprintIdentifier="F9B8C54766F75C2800000000" BlueprintName="MagazineApp" BuildableName="MagazineApp.app" BuildableIdentifier="primary"></BuildableReference>
+        </BuildableProductRunnable>
+    </LaunchAction>
+    <ProfileAction useCustomWorkingDirectory="NO" debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Release">
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintName="MagazineApp" BuildableIdentifier="primary" ReferencedContainer="container:MagazineApp.xcodeproj" BuildableName="MagazineApp.app" BlueprintIdentifier="F9B8C54766F75C2800000000"></BuildableReference>
+        </BuildableProductRunnable>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>

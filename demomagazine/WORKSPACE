@@ -1,0 +1,57 @@
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+git_repository(
+    name = "build_bazel_rules_apple",
+    remote = "https://github.com/bazelbuild/rules_apple.git",
+    # This is 1 commit behind 0.16.1 which upgraded to a broken verison of
+    # rules_swift on Bazel 0.24.1
+    commit = "eaf5817105d1aa8c473b4e5c3ddfdc34b36b071f",
+)
+
+load(
+    "@build_bazel_rules_apple//apple:repositories.bzl",
+    "apple_rules_dependencies",
+)
+
+apple_rules_dependencies()
+
+load(
+    "@build_bazel_rules_swift//swift:repositories.bzl",
+    "swift_rules_dependencies",
+)
+
+swift_rules_dependencies()
+
+load(
+    "@build_bazel_apple_support//lib:repositories.bzl",
+    "apple_support_dependencies",
+)
+
+apple_support_dependencies()
+
+# External iOS Dependencies
+
+http_archive(
+    name = "Rx",
+    url = "https://github.com/ReactiveX/RxSwift/archive/4.2.0.tar.gz",
+    strip_prefix = "RxSwift-4.2.0",
+    sha256 = "d8474e9733075e7164732b25284c263d0b16e9c9a18393de932bd8ddded73360",
+    build_file = "@//Pods/RxSwift:BUILD",
+)
+
+http_archive(
+    name = "Rx",
+    url = "https://github.com/ReactiveX/RxSwift/archive/4.2.0.tar.gz",
+    strip_prefix = "RxSwift-4.2.0",
+    sha256 = "d8474e9733075e7164732b25284c263d0b16e9c9a18393de932bd8ddded73360",
+    build_file = "@//Pods/RxSwift:BUILD",
+)
+
+http_archive(
+    name = "Ml",
+    url = "https://github.com/annomusa/MagazineLayout/archive/1.5.2.tar.gz",
+    strip_prefix = "MagazineLayout-1.5.2",
+    sha256 = "fb19809e8aa7a4b4868328874a0369e584a182afd80c0bbf93e136de61fd8a6b",
+    build_file = "@//Pods/MagazineLayout:BUILD",
+)

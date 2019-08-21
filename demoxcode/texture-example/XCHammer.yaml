@@ -1,0 +1,41 @@
+targets:
+    - "//ios-app:UITests"
+    - "//ios-app:UnitTests"
+    - "//ios-app:UnitTestsWithHost"
+    - "//ios-app:ios-app"
+    - "//ios-app:share-extension"
+    - "//ios-app:ios-app-bin"
+
+projects:
+    "TextureApp":
+        paths:
+            - "Vendor/**"
+            - "ios-app/**"
+
+        xcconfigOverrides:
+            Debug: "ios-app/Diags.xcconfig"
+            Release: "ios-app/Diags.xcconfig"
+
+        buildBazelPlatformOptions:
+            ios_x86_64:
+                - "--config=ios_x86_64"
+            ios_arm64:
+                - "--config=ios_arm64"
+targetConfig:
+    "//ios-app:ios-app":
+        buildBazelTemplate: "ProjectGetXcodeBuildScript.sh"
+        buildBazelOptions: "--action_env=X=Y --action_env=CLI_SDK=$(SDKROOT)"
+        schemeConfig:
+            Build:
+                preActions:
+                    - script: "echo 'warning: pre'"
+                environmentVariables:
+                    - variable: envVar
+                      value: "$SRCROOT"
+                      enabled: true
+
+    "//Vendor/Texture:Texture":
+        buildBazelOptions: "--apple_platform_type=ios"
+        xcconfigOverrides:
+            Release: "Vendor/Analyzer.xcconfig"
+            Debug: "Vendor/Analyzer.xcconfig"
